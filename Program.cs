@@ -1,9 +1,12 @@
 using MyNetApp.Lists;
+using MyNetApp.StackQueue;
 
 // new AddItemOperator(1000000).Run();
-new AccessOperator(1000000).Run();
+// new AccessOperator(1000000).Run();
 // new RemoveOperator(300000).Run();
 // new SearchOperator(200000).Run();
+
+new StackQueueBenchmark(10000000).Run();
 
 // var builder = WebApplication.CreateBuilder(args);
 //
